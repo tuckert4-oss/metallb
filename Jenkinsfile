@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     environment {
-        GITHUB_URL = 'https://github.com/tuckert4-oss/metallb-deploy.git'  // <---- Change this to match your cloned repository
+        GITHUB_URL = 'https://github.com/tuckert4-oss/metallb.git'  // <---- Change this to match your cloned repository
         KUBECONFIG = credentials('tuckert4')   // <---- Change this to match your kubernetes cluster credentials
     }
 
